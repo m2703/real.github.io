@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1800px){
+    .navlist{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 504px;
+        width: 108%;
+        transition: all ease-out 0.7s;
+    }
+
+    .rightNav{
+        
+        display: flex;
+        flex-direction: row;
+    }
+    #Search{
+        width: auto;
+       
+    }
+
+    .FirstSection{
+        height: 320vh;
+        width: 108%;
+        
+    }
+    .containers{
+        flex-direction: column;
+        margin: auto;
+        max-width: 100%;
+        margin-left: 0px;
+        
+    }
+
+    .USA{
+        width: 80%;
+    margin: 21px auto;
+        top: 173px;
+
+    }
+
+    .textbig{
+        font-size: 26px;
+
+    }
+    .textsmall{
+        font-size: 13px;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+        
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .burger{
+       display: block;
+    }
+
+    .firstdiv{
+        flex-direction: column;
+        border-radius: 20px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .caraousel{
+        width: 100%;
+    }
+
+    .rev{
+        margin: -2px;
+    }
+
+    .cardings{
+        flex-direction: column;
+        align-items: center;
+        margin: auto
+        ;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .formclass{
+        width: max-content;
+    }
+    .btn1{
+        width: max-content;
+    }
+}
